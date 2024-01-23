@@ -1,7 +1,7 @@
 # jitsi_meet
 
 Para correr los scripts de instalación y desinstalación de Jitsi Meet 
-se debe dar permisos con el siguiente comando:
+se debe dar permisos de ejecución con el siguiente comando:
 
 ```sh
 chmod +x install_jitsi_meet_.sh
