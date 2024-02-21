@@ -19,4 +19,11 @@ chmod +x uninstall_jitsi_meet_.sh
 ./install_jitsi_meet_.sh nombre_de_tu_dominio
 ```
 
+4. Si pasadas unas horas no se ve refleajado el certificado SSL, 
+    puedes intentar con el siguiente comando.
+
+```sh
+sudo apt install certbot python3-certbot-nginx -y
+sudo certbot --nginx -d nombre_de_tu_dominio -d www.nombre_de_tu_dominio
+```    
 
